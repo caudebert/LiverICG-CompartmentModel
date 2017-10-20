@@ -32,7 +32,7 @@ make
 
 to run :
 ```console
-./output
+./output.exe
 ```
 
 ### Model parameters, sensitivity analsysis and observations
