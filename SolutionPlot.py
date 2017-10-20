@@ -1,4 +1,30 @@
-###Plot solution of ICG model ###
+"""
+====================================================================
+This file is part of the code ICG4pharma
+ICG 4-compartment liver pharmacokinetics model
+Copyright (C) 2017, INRIA
+*******************************************************
+******* Author : Chloe Audebert and Irene E. Vignon Clementel
+******* Last mod : 5/01/2016
+*******************************************************
+******* Description ***********
+Plot the solution of the ODE system solved in Model.c
+Solution of a 4 compartments model for ICG pharmacokinetic in the liver
+
+ICG4Pharma is free software; you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation; either version 2.1 of the License, or (at your option)
+any later version.
+ICG4Pharma is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for
+more details.
+You should have received a copy of the GNU Lesser General Public License
+along with ICG4Pharma. If not, see http://www.gnu.org/licenses/.
+ =============================================================================
+"""
+
+
 
 import scipy as SP
 import matplotlib as MP
