@@ -2,8 +2,8 @@
 Liver ICG description with mathematical model based on ODE
 
 ### Requirements
-librairies: lapack et libm installed
-to plot the solution: python
+librairies: lapack and libm installed
+to plot the solution: python and scipy, matplotlib
 
 Sundials
 
@@ -17,11 +17,11 @@ cmake -DCMAKE_INSTALL_PREFIX=. -DEXAMPLES_ENABLE=OFF ../sundials-2.7.0
 make
 make install
 ```
-2/ make a root level to compile the code
+2/ make at root level
 
 ### How to compile and run 
 
-Once the requiered librairies the code can be compile and run. 
+Once the requiered librairies the code can be compiled and run. 
 
 to compile :
 ```console
