@@ -1,15 +1,33 @@
-/*
-Author : Chloe Audebert
+/*============================================================================
+This file is part of the code ICG4pharma
+ICG 4-compartment liver pharmacokinetics model
+Copyright (C) 2017, INRIA
+*******************************************************
+******* Author : Chloe Audebert and Irene E. Vignon Clementel
+******* Last mod : 5/01/2016
+*******************************************************
 ******* Description ***********
-ICG pharmaco model : all body circulation taken into account 
-Liver with 3 compartments : Sinusoid, hepatocytes and bile canaliculi
-Initial value in the blood is assumed non-zero, t0 is juste after injection
-Model considere to fit ElDesoky et al. paper on ICG in rabbits, concentration are in arbitrary units
-Sensitivity analysis : 
+Model is considered to fit El-Desoky et al. 1999  data of ICG fluorescence in liver rabbits
+4 compartments are considered, the liver with 3 compartments : Sinusoid, hepatocytes and bile canaliculi 
+and the rest of the blood circulation
+Concentrations are in arbitrary units
+Initial value in the blood is assumed non-zero (just after injection)
+
+Here the sensitivity equation are solved to performed sensitivity analysis: 
 Observation : Liver amount
 Parameter of interest : Ksh Qhb S and Fb
 
-*/
+ICG4Pharma is free software; you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation; either version 2.1 of the License, or (at your option)
+any later version.
+ICG4Pharma is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for
+more details.
+You should have received a copy of the GNU Lesser General Public License
+along with ICG4Pharma. If not, see http://www.gnu.org/licenses/.
+ =============================================================================*/
 
 #include <stdio.h>
 #include <math.h>
