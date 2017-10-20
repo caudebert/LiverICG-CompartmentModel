@@ -37,7 +37,6 @@ to run :
 ### Model parameters, sensitivity analsysis and observations
  * the result file `data.txt` is in the folder `./Res/`
 to plot the output of the model a python script called `SolutionPlot.py`
-
 to plot:
 ```console
 python SolutionPlot.py
@@ -45,9 +44,9 @@ python SolutionPlot.py
 
  * To change the parameters of the model the file `Model.c` needs to be modified. In the first lines of this file you can choose the parameters of the model and the result file name. Don't forger to re-compile the code before running it.
 
-  * The files for sensitivity analysis are in `./SensitivityAnalysis` folder. You need to compile and run the sensitivity analysis code, then you can plot the resulting senstivity function with the python script `SensitivityPlot.py`. The parameters of the model can also be changed by modifying the file ```Model_Sensitivty.c```, don't forget to re-compile the code before running it. 
+ * The files for sensitivity analysis are in `./SensitivityAnalysis` folder. You need to compile and run the sensitivity analysis code, then you can plot the resulting senstivity function with the python script `SensitivityPlot.py`. The parameters of the model can also be changed by modifying the file ```Model_Sensitivty.c```, don't forget to re-compile the code before running it. 
 
-  * The observation files are from El-Desoky et. al. 1999, and are in `./Obs`
+ * The observation files are from El-Desoky et. al. 1999, and are in `./Obs`
 
 
 
